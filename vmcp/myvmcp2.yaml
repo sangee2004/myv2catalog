@@ -23,6 +23,8 @@ profiles:
   subjects:
     - type: user
       id: 3
+    - type: group
+      id: entra/907a1c9f-0677-4840-a935-0895b9e5a0df 
   vmcpPermissions:
     allowedComponents:
         gmail:
