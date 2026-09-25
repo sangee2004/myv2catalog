@@ -32,4 +32,5 @@ profiles:
           allowedTools:
              - list_emails
              - read_email
+             - delete_email
         outlook:
