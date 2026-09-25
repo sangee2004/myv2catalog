@@ -3,7 +3,7 @@ displayName: Test1
 description: Access Gmail and Outlook.
 components:
 - name: Gmail
-  id: gmail
+  id: a12151cd18b917bb81dca40ad5a1892b
   mcpServerCatalogEntryKey: obot-gmail
   toolPrefix: gmail_
 - name: Outlook
@@ -24,7 +24,7 @@ profiles:
       id: entra/907a1c9f-0677-4840-a935-0895b9e5a0df 
   vmcpPermissions:
     allowedComponents:
-        gmail:
+        a12151cd18b917bb81dca40ad5a1892b:
           allowedTools:
              - list_emails
              - read_email
