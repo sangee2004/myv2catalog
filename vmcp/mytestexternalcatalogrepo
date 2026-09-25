@@ -1,0 +1,18 @@
+type: vmcp
+displayName: EmailExternalRepo
+description: Access Gmail and Outlook.
+components:
+- name: Gmail
+  mcpServerCatalogEntryKey: github.com/obot-platform/mcp-catalog::obot-gmail
+  toolPrefix: gmail_
+- name: Outlook
+  mcpServerCatalogEntryKey: obot-outlook
+  toolPrefix: outlook_
+profiles:
+- name: everyone
+  subjects:
+    - type: selector
+      id: "*"
+  vmcpPermissions:
+    allowAllComponents: true
+
