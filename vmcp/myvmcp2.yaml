@@ -20,7 +20,7 @@ profiles:
       id: 2
   vmcpPermissions:
     allowedComponents:
-        obot-gmail:
+        gmail:
           allowedTools:
              - list_emails
              -  read_email
