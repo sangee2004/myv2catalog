@@ -1,0 +1,4 @@
+.kiro/
+.idea/
+*__pycache__/
+scripts/claude-directory/.state/
