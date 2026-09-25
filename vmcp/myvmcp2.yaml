@@ -18,6 +18,7 @@ components:
 - name: Outlook
   mcpServerCatalogEntryKey: obot-outlook
   toolPrefix: outlook_
+  id: outlook
 profiles:
 - name: test1
   subjects:
@@ -31,3 +32,4 @@ profiles:
           allowedTools:
              - list_emails
              - read_email
+        outlook:
