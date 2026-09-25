@@ -1,0 +1,26 @@
+type: vmcp
+displayName: Email
+description: Access Gmail and Outlook.
+components:
+- name: Gmail
+  mcpServerCatalogEntryKey: obot-gmail
+  toolPrefix: gmail_
+  toolOverrides:
+    - name: list_emails
+    - name: read_email
+    - name: list_drafts
+    - name: list_labels
+- name: Outlook
+  mcpServerCatalogEntryKey: obot-outlook
+  toolPrefix: outlook_
+profiles:
+- name: test1
+  subjects:
+    - type: user
+      id: 2
+  vmcpPermissions:
+    allowAllComponents:
+        obot-gmail:
+          allowedTools:
+             - list_emails
+             -  read_email
