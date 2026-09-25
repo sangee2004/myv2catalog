@@ -24,4 +24,4 @@ profiles:
         gmail:
           allowedTools:
              - list_emails
-             -  read_email
+             - read_email
