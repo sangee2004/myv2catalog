@@ -8,9 +8,13 @@ components:
   toolPrefix: gmail_
   toolOverrides:
     - name: list_emails
+      enabled: true
     - name: read_email
+      enabled: true
     - name: list_drafts
+      enabled: true
     - name: list_labels
+      enabled: true
 - name: Outlook
   mcpServerCatalogEntryKey: obot-outlook
   toolPrefix: outlook_
