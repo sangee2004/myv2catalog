@@ -25,9 +25,9 @@ profiles:
 - name: test1
   subjects:
     - type: user
-      id: 35
+      id: 150
     - type: group
-      id: entra/907a1c9f-0677-4840-a935-0895b9e5a0df
+      id: entra/testing1234
   vmcpPermissions:
     allowedComponents:
         gmail:
