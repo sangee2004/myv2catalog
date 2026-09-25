@@ -3,6 +3,7 @@ displayName: MyEmailManaged
 description: Access Gmail and Outlook.
 components:
 - name: Gmail
+  id: gmail
   mcpServerCatalogEntryKey: obot-gmail
   toolPrefix: gmail_
   toolOverrides:
