@@ -3,7 +3,7 @@ displayName: Email
 description: Access Gmail and Outlook.
 components:
 - name: Gmail
-  mcpServerCatalogEntryKey: obot-gmail
+  mcpServerCatalogEntryKeys: obot-gmail
   toolPrefix: gmail_
 - name: Outlook
   mcpServerCatalogEntryKey: obot-outlook
