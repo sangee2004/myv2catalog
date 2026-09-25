@@ -28,4 +28,3 @@ profiles:
           allowedTools:
              - list_emails
              - read_email
-        outlook:
