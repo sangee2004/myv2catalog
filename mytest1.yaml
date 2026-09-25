@@ -1,0 +1,17 @@
+type: vmcp
+displayName: Test1
+description: Access Gmail and Outlook.
+components:
+- name: Gmail
+  mcpServerCatalogEntryKey: obot-gmail
+  toolPrefix: gmail_
+- name: Outlook
+  mcpServerCatalogEntryKey: obot-outlook
+  toolPrefix: outlook_
+profiles:
+- name: everyone
+  subjects:
+    - type: selector
+      id: "*"
+  vmcpPermissions:
+    allowAllComponents: true
