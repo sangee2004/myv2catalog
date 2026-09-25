@@ -12,8 +12,8 @@ components:
 profiles:
 - name: everyone
   subjects:
-    - type: selector
-      id: "*"
+    - type: obotGroup
+      id: admin
   vmcpPermissions:
     allowAllComponents: true
 - name: test1
