@@ -19,7 +19,7 @@ profiles:
     - type: user
       id: 2
   vmcpPermissions:
-    allowAllComponents:
+    allowedComponents:
         obot-gmail:
           allowedTools:
              - list_emails
