@@ -15,6 +15,8 @@ components:
       enabled: true
     - name: list_labels
       enabled: true
+    - name: invalid_tool
+      enabled: true
 - name: Outlook
   mcpServerCatalogEntryKey: obot-outlook
   toolPrefix: outlook_
@@ -25,12 +27,11 @@ profiles:
     - type: user
       id: 35
     - type: group
-      id: entra/907a1c9f-0677-4840-a935-0895b9e5a0dfabc
+      id: entra/907a1c9f-0677-4840-a935-0895b9e5a0df
   vmcpPermissions:
     allowedComponents:
         gmail:
           allowedTools:
              - list_emails
              - read_email
-             - delete_email
         outlook:
