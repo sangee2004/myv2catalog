@@ -1,5 +1,5 @@
 type: vmcp
-displayName: Email
+displayName: MyEmailManaged
 description: Access Gmail and Outlook.
 components:
 - name: Gmail
