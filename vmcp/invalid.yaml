@@ -34,4 +34,5 @@ profiles:
           allowedTools:
              - list_emails
              - read_email
+             - invalid_tool
         outlook:
