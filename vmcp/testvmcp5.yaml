@@ -15,8 +15,8 @@ components:
     - key: GITLAB_PERSONAL_ACCESS_TOKEN
       policy: fixed
       secretBinding:
-        name: my-secret
-        key: api_key
+        name: gitlab-secret
+        key: gitlab_key
 profiles:
 - name: everyone
   subjects:
