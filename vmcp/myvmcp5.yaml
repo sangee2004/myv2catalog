@@ -11,6 +11,9 @@ components:
       policy: userAllowed
 - name: Gitlab
   mcpServerCatalogEntryKey: obot-gitlab
+  configuration:
+    - key: GITLAB_PERSONAL_ACCESS_TOKEN
+      policy: userAllowed
 profiles:
 - name: everyone
   subjects:
