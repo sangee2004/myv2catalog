@@ -1,0 +1,15 @@
+type: vmcp
+displayName: Email
+description: Access Gmail and Outlook.
+components:
+- name: Github
+  mcpServerCatalogEntryKey: obot-github
+- name: Gitlab
+  mcpServerCatalogEntryKey: obot-gitlab
+profiles:
+- name: everyone
+  subjects:
+    - type: selector
+      id: "*"
+  vmcpPermissions:
+    allowAllComponents: true
