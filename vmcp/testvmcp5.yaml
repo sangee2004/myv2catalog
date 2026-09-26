@@ -1,5 +1,5 @@
 type: vmcp
-displayName: RepoAccess
+displayName: RepoAccessfixed
 description: Access Gmail and Outlook.
 components:
 - name: Github
