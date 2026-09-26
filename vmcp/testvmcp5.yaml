@@ -14,7 +14,9 @@ components:
   configuration:
     - key: GITLAB_PERSONAL_ACCESS_TOKEN
       policy: fixed
-      value: test1234567
+      secretBinding:
+        name: my-secret 
+        key: api_key
 profiles:
 - name: everyone
   subjects:
