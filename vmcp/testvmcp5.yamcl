@@ -1,0 +1,23 @@
+type: vmcp
+displayName: RepoAccess
+description: Access Gmail and Outlook.
+components:
+- name: Github
+  mcpServerCatalogEntryKey: obot-github
+  configuration:
+    - key: GITHUB_MCP_PATH
+      policy: userAllowed
+    - key: AUTHORIZATION
+      policy: userAllowed
+- name: Gitlab
+  mcpServerCatalogEntryKey: obot-gitlab
+  configuration:
+    - key: GITLAB_PERSONAL_ACCESS_TOKEN
+      policy: fixed
+profiles:
+- name: everyone
+  subjects:
+    - type: selector
+      id: "*"
+  vmcpPermissions:
+    allowAllComponents: true
