@@ -4,12 +4,14 @@ description: Access Gmail and Outlook.
 components:
 - name: Github
   mcpServerCatalogEntryKey: obot-github
+  id: github
   configuration:
     - key: GITHUB_MCP_PATH
       policy: userAllowed
     - key: AUTHORIZATION
       policy: userAllowed
 - name: Gitlab
+  id: gitlab
   mcpServerCatalogEntryKey: obot-gitlab
   configuration:
     - key: GITLAB_PERSONAL_ACCESS_TOKEN
