@@ -1,13 +1,14 @@
 type: vmcp
-displayName: InvalidEmail
+displayName: Email
 description: Access Gmail and Outlook.
 components:
 - name: Gmail
+   mcpServerCatalogEntryKey: obot-gmail
   id: gmail
   toolPrefix: gmail_
 - name: Outlook
   id: outlook
-  mcpServerCatalogEntryKey: obot-outlook1
+  mcpServerCatalogEntryKey: obot-outlook
   toolPrefix: outlook_
 profiles:
 - name: everyone
