@@ -3,9 +3,11 @@ displayName: EmailExternalRepo
 description: Access Gmail and Outlook.
 components:
 - name: Gmail
+  id: gmail
   mcpServerCatalogEntryKey: github.com/sangee2004/v2repo::obot-gmail
   toolPrefix: gmail_
 - name: Outlook
+  id: outlook
   mcpServerCatalogEntryKey: obot-outlook
   toolPrefix: outlook_
 profiles:
